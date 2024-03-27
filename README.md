@@ -24,3 +24,8 @@ __Validation and Evaluation:__ It provides tools for validating generated data a
 __Scalability and Efficiency:__ The software is scalable and efficient, capable of handling large datasets and generating synthetic data in a timely manner.
 
 Overall, `gLLMglnlmvlvMMM` is a versatile solution for generating synthetic data for generalized, linear or nonlinear, multivariate latent-variable mixed/multilevel modeling applications.
+
+## testimonials
+
+* "it's as though you had kidnapped Doug Bates, Simon Wood, Michael Betancourt, and Havard Rue to help with your analyses!"
+* "solves the problem raised in `fortunes::fortune("surgery")`!"
