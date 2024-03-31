@@ -4,6 +4,7 @@ a generative Large Language Model for generalized,
 linear or nonlinear, multivariate latent-variable
 mixed/multilevel modeling
 
+![](pic_small.jpg)
 
 `gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by leveraging the power of modern AI. Trained on numerous posts from social media[^1], mailing lists and forums[^2] such as Stack Exchange and Cross Validated, this package:
 
