@@ -5,7 +5,7 @@ linear or nonlinear, multivariate latent-variable
 mixed/multilevel modeling
 
 
-`gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by applying modern generative AI tools to the problem. Trained on numerous posts from mailing lists and forums such as Stack Exchange and Cross Validated, this package:
+`gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by leveraging the power of modern AI. Trained on numerous posts from social media[^1], mailing lists and forums[^2] such as Stack Exchange and Cross Validated, this package:
 
 - **resolves scaling problems**: large models can now be fitted in ${\cal O}(\log \min(N,p))$ time 
 - **solves model misspecification problems**: no more squinting at diagnostic plots and making subjective judgements (*or* worrying about why the Shapiro-Wilk test rejects Normality of residuals)
@@ -14,8 +14,8 @@ mixed/multilevel modeling
 - **resolves 'divergent transition' warnings**: in Bayesian/Hamiltonian Monte Carlo mode, automatically reparameterizes your model to eliminate the possibility of divergent transitions
 - **outlier detection and resolution**: automatically detects outliers, tests whether deleting them will improve your results, and if so removes them and writes a justification paragraph for you to paste into your report or manuscript
 - **includes AI**: while the basic version of `gLLMglnlmvlvMMM` is open-source, a premium version with "AI" in the title (`gLLMglnlmvlvMMM-AI`) is available, for those whose bosses want to pay for AI (this is the only difference between the versions)
-- **unsupervised dichotomization**: if your analysis produces any significant values that you *don't* want, `gLLMglnlmvlvMMM` will use an automatic stepwise procedure to discretize continuous predictors until the unwanted significance stars disappear, without compromising any of the desired results
-- **automatic upsampling and imputation**: data set too small? Lots of missing values? No problem, `gLLMglnlmvlvMMM` will automatically impute sensible values and upsample your data to make the data set large enough for any analysis you want to run
+- **unsupervised dichotomization**: if your analysis identifies any statistically significant terms that you *don't* want, `gLLMglnlmvlvMMM` will use an automatic stepwise procedure to discretize continuous predictors until the unwanted significance stars disappear, without compromising any of the desired results
+- **automatic upsampling and imputation**: data set too small? Too many missing values? `gLLMglnlmvlvMMM` will automatically impute sensible values and upsample your data to make the data set large enough for any analysis you want to run
 - **covered by a warranty**: `gLLMglnlmvlvMMM` comes with a warranty for correctness that is [comparable to premium closed-source statistical packages](https://notstatschat.rbind.io/2019/02/18/absolutely-no-warranty/)
 - **multi-language implementation**: `gLLMglnlmvlvMMM` is built in an inscrutable combination of R, C++, Julia, Rust, and Haskell that maximizes computational performance as well as job security of the authors. COBOL bindings are planned
 - **I'm sorry, but as a large language model I can't think of any more jokes**
@@ -24,3 +24,6 @@ mixed/multilevel modeling
 
 * "it's as though you kidnapped Doug Bates, Simon Wood, Michael Betancourt, and Håvard Rue and kept them in your basement to answer your statistical questions!"
 * "solves the problem raised in `fortunes::fortune("surgery")`!"
+
+[^1]: input is carefully screened to include only posts from people who know what they're talking about
+[^2]: Oxford commas? ~~We don't need no stinkin' Oxford commas~~  we don't have to show you any stinkin' Oxford commas ...
