@@ -5,7 +5,7 @@ linear or nonlinear, multivariate latent-variable
 mixed/multilevel modeling
 
 
-`gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by leveraging the power of modern AI. Trained on numerous posts from social media[^1], mailing lists and forums such as Stack Exchange and Cross Validated, this package:
+`gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by leveraging the power of modern AI. Trained on numerous posts from social media[^1], mailing lists and forums[^2] such as Stack Exchange and Cross Validated, this package:
 
 - **resolves scaling problems**: large models can now be fitted in ${\cal O}(\log \min(N,p))$ time 
 - **solves model misspecification problems**: no more squinting at diagnostic plots and making subjective judgements (*or* worrying about why the Shapiro-Wilk test rejects Normality of residuals)
@@ -26,3 +26,4 @@ mixed/multilevel modeling
 * "solves the problem raised in `fortunes::fortune("surgery")`!"
 
 [^1]: input is carefully screened to include only posts from people who know what they're talking about
+[^2]: Oxford commas? ~~We don't need no stinkin' Oxford commas~~  we don't have to show you any stinkin' Oxford commas ...
