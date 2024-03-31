@@ -24,7 +24,7 @@ mixed/multilevel modeling
 ## testimonials
 
 * "it's as though you kidnapped Doug Bates, Simon Wood, Michael Betancourt, and Håvard Rue and kept them in your basement to answer your statistical questions!"
-* "solves the problem raised in `fortunes::fortune("surgery")`!"
+* "solves the problem raised in [`fortunes::fortune('surgery')`](https://stats.stackexchange.com/a/17513/2126)!"
 
 [^1]: input is carefully screened to include only posts from people who know what they're talking about
 [^2]: Oxford commas? ~~We don't need no stinkin' Oxford commas~~  we don't have to show you any stinkin' Oxford commas ...
