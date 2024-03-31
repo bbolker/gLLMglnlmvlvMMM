@@ -5,7 +5,7 @@ linear or nonlinear, multivariate latent-variable
 mixed/multilevel modeling
 
 
-`gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by applying modern generative AI tools to the problem. Trained on numerous posts from mailing lists and forums such as Stack Exchange and Cross Validated, this package:
+`gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitted mixed models by leveraging the power of modern AI. Trained on numerous posts from mailing lists and forums such as Stack Exchange and Cross Validated, this package:
 
 - **resolves scaling problems**: large models can now be fitted in ${\cal O}(\log \min(N,p))$ time 
 - **solves model misspecification problems**: no more squinting at diagnostic plots and making subjective judgements (*or* worrying about why the Shapiro-Wilk test rejects Normality of residuals)
