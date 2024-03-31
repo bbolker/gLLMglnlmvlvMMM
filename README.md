@@ -18,7 +18,7 @@ mixed/multilevel modeling
 - **unsupervised dichotomization**: if your analysis identifies any statistically significant terms that you *don't* want, `gLLMglnlmvlvMMM` will use an automatic stepwise procedure to discretize continuous predictors until the unwanted significance stars disappear, without compromising any of the desired results
 - **automatic upsampling and imputation**: data set too small? Too many missing values? `gLLMglnlmvlvMMM` will automatically impute sensible values and upsample your data to make the data set large enough for any analysis you want to run
 - **covered by a warranty**: `gLLMglnlmvlvMMM` comes with a warranty for correctness that is [comparable to premium closed-source statistical packages](https://notstatschat.rbind.io/2019/02/18/absolutely-no-warranty/)
-- **multi-language implementation**: `gLLMglnlmvlvMMM` is built in an inscrutable combination of R, C++, Julia, Rust, and Haskell that maximizes computational performance as well as job security of the authors. COBOL bindings are planned
+- **multi-language implementation**: `gLLMglnlmvlvMMM` is built in an inscrutable combination of R, C++, Julia, Rust, Haskell, Perl, and awk that maximizes computational performance as well as job security of the authors. COBOL and [Brainf*ck](https://en.wikipedia.org/wiki/Brainfuck) bindings are in the works.
 - **I'm sorry, but as a large language model I can't think of any more jokes**
 
 ## testimonials
