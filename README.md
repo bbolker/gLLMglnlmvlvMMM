@@ -8,7 +8,7 @@ mixed/multilevel modeling
 
 `gLLMglnlmvlvMMM` is a comprehensive tool that completely solves the problem of fitting mixed models by leveraging the power of modern AI. Trained on numerous posts from social media[^1], mailing lists and forums[^2] such as Stack Exchange and Cross Validated, this package:
 
-- **scalable**: large models can now be fitted in ${\cal O}(\log \min(N,p))$ time 
+- **scales well with Big Data**: large models can now be fitted in ${\cal O}(\log \min(N,p))$ time 
 - **solves model misspecification**: no more squinting at diagnostic plots and making subjective judgements (*or* worrying about why the Shapiro-Wilk test rejects Normality of residuals)
 - **eliminates singular fits**: unlike tools written by fussy statisticians, `gLLMglnlmvlvMMM` can fit models with negative and/or complex-valued variances
 - **computes denominator degrees of freedom**: chooses from among Satterthwaite, Kenward-Roger, Fai-Cornelius, and Snark-Boojum approximations to pick the one that will give you the best $p$-values
