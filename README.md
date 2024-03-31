@@ -11,7 +11,7 @@ mixed/multilevel modeling
 - **scales well with Big Data**: large models can now be fitted in ${\cal O}(\log \min(N,p))$ time 
 - **solves model misspecification**: no more squinting at diagnostic plots and making subjective judgements (*or* worrying about why the Shapiro-Wilk test rejects Normality of residuals)
 - **eliminates singular fits**: unlike tools written by fussy statisticians, `gLLMglnlmvlvMMM` can fit models with negative and/or complex-valued variances
-- **computes denominator degrees of freedom**: chooses from among Satterthwaite, Kenward-Roger, Fai-Cornelius, and Snark-Boojum approximations to pick the one that will give you the best $p$-values
+- **computes denominator degrees of freedom**: chooses from among Satterthwaite, Kenward-Roger, Fai-Cornelius, and Snark-Boojum approximations to pick the one that gives the best $p$-values
 - **resolves 'divergent transition' warnings**: in Bayesian/Hamiltonian Monte Carlo mode, automatically reparameterizes your model to eliminate the possibility of divergent transitions
 - **detects and resolves outliers**: automatically detects outliers, tests whether deleting them will improve your results, and if so removes them and writes a justification paragraph for you to paste into your report or manuscript
 - **includes AI**: while the basic version of `gLLMglnlmvlvMMM` is open-source, a premium version with "AI" in the title (`gLLMglnlmvlvMMM-AI`) is available, for those whose bosses want to pay for AI (this is the only difference between the versions)
@@ -23,7 +23,7 @@ mixed/multilevel modeling
 
 ## testimonials
 
-* "it's as though you kidnapped Doug Bates, Simon Wood, Michael Betancourt, and Håvard Rue and kept them in your basement to answer your statistical questions!"
+* "it's as though you had kidnapped Doug Bates, Simon Wood, Michael Betancourt, and Håvard Rue and kept them in your basement to answer statistical questions!"
 * "solves the problem raised in [`fortunes::fortune('surgery')`](https://stats.stackexchange.com/a/17513/2126)!"
 
 [^1]: input is carefully screened to include only posts from people who know what they're talking about
